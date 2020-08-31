@@ -1,0 +1,37 @@
+Serverless: Packaging service...
+Serverless: Excluding development dependencies...
+Serverless: Uploading CloudFormation file to S3...
+Serverless: Uploading artifacts...
+Serverless: Uploading service serverless-todo-cicd.zip file to S3 (463.42 KB)...
+Serverless: Validating template...
+Serverless: Updating Stack...
+Serverless: Checking Stack update progress...
+......................................
+Serverless: Stack update finished...
+Service Information
+service: serverless-todo-cicd
+stage: dev
+region: us-east-1
+stack: serverless-todo-cicd-dev
+resources: 35
+api keys:
+  None
+endpoints:
+  POST - https://140ds3vsgj.execute-api.us-east-1.amazonaws.com/dev/todos
+  GET - https://140ds3vsgj.execute-api.us-east-1.amazonaws.com/dev/todos
+  GET - https://140ds3vsgj.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  PUT - https://140ds3vsgj.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  DELETE - https://140ds3vsgj.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+functions:
+  create: serverless-todo-cicd-dev-create
+  list: serverless-todo-cicd-dev-list
+  get: serverless-todo-cicd-dev-get
+  update: serverless-todo-cicd-dev-update
+  delete: serverless-todo-cicd-dev-delete
+layers:
+  None
+
+**********
+Serverless: Announcing an enhanced experience for running Express.js apps: https://github.com/serverless-components/express.
+**********
+
